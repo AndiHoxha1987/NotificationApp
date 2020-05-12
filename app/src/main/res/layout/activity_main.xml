@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title"
+        app:layout_constraintBottom_toBottomOf="@id/edit_text_message"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/edit_text_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/message"
+        app:layout_constraintBottom_toBottomOf="@id/notification1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/edit_text_title"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/notification1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/notify_1"
+        android:onClick="sendOnChannel1"
+        app:layout_constraintBottom_toBottomOf="@id/notification2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/notification7"
+        app:layout_constraintTop_toTopOf="@id/edit_text_message" />
+
+    <Button
+        android:id="@+id/notification2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/notify_2"
+        android:onClick="sendOnChannel2"
+        app:layout_constraintBottom_toBottomOf="@id/notification3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/notification7"
+        app:layout_constraintTop_toTopOf="@id/notification1" />
+
+    <Button
+        android:id="@+id/notification3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/notify_3"
+        android:onClick="sendOnChannel3"
+        app:layout_constraintBottom_toBottomOf="@id/notification4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/notification8"
+        app:layout_constraintTop_toTopOf="@id/notification2" />
+
+    <Button
+        android:id="@+id/notification4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/notify_4"
+        android:onClick="sendOnChannel4"
+        app:layout_constraintBottom_toBottomOf="@id/notification5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/notification9"
+        app:layout_constraintTop_toTopOf="@id/notification3" />
+    <Button
+        android:id="@+id/notification5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/notify_5"
+        android:onClick="sendOnChannel5"
+        app:layout_constraintBottom_toBottomOf="@id/notification6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/notification10"
+        app:layout_constraintTop_toTopOf="@id/notification4" />
+    <Button
+        android:id="@+id/notification6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/notify_6"
+        android:onClick="sendOnChannel6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/notification12"
+        app:layout_constraintTop_toTopOf="@id/notification5" />
+
+    <Button
+        android:id="@+id/notification7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/notify_7"
+        android:onClick="sendOnChannel7"
+        app:layout_constraintBottom_toBottomOf="@id/notification2"
+        app:layout_constraintLeft_toLeftOf="@id/notification1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/edit_text_message" />
+
+    <Button
+        android:id="@+id/notification8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/notify_8"
+        android:onClick="sendOnChannel8"
+        app:layout_constraintBottom_toBottomOf="@id/notification3"
+        app:layout_constraintLeft_toLeftOf="@id/notification2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/notification1" />
+
+    <Button
+        android:id="@+id/notification9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/notify_9"
+        android:onClick="sendOnChannel9"
+        app:layout_constraintBottom_toBottomOf="@id/notification4"
+        app:layout_constraintLeft_toLeftOf="@id/notification3"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/notification2" />
+
+    <Button
+        android:id="@+id/notification10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/notify_10"
+        android:onClick="sendOnChannel10"
+        app:layout_constraintBottom_toBottomOf="@id/notification5"
+        app:layout_constraintLeft_toLeftOf="@id/notification4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/notification3" />
+    <Button
+        android:id="@+id/notification11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/notify_11"
+        android:onClick="sendOnChannel11"
+        app:layout_constraintBottom_toBottomOf="@id/notification6"
+        app:layout_constraintLeft_toLeftOf="@id/notification5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/notification4" />
+    <Button
+        android:id="@+id/notification12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/notify_12"
+        android:onClick="sendOnChannel12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/notification6"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/notification5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

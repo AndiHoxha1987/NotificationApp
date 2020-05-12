@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Notification App</string>
+    <string name="long_dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nunc sed leo consectetur, iaculis felis non, porta urna. Integer vulputate nisl at massa facilisis fringilla.
+        Ut egestas, eros placerat  accumsan, orci velit finibus sem, in placerat lorem dolor in odio.
+        Mauris auctor tortor eget quam facilisis commodo. Nulla in auctor justo, dapibus pharetra elit.
+        Nam malesuada gravida porttitor. Integer placerat, est condimentum facilisis commodo, magna  sodales dolor,
+        non vestibulum risus tellus ut nibh. Donec accumsan mauris quis libero ullamcorper,
+        sed tincidunt purus lobortis. Nunc sed leo vel est ullamcorper aliquet id eget dolor.
+        Maecenas imperdiet lorem pellentesque, finibus risus in, mollis dui. Cras bibendum risus id rutrum sagittis.
+        Donec ullamcorper, nisi vel rhoncus ullamcorper, urna ligula pretium nunc,
+        at volutpat ex erat bibendum metus.</string>
+    <string name="message">Message</string>
+    <string name="title">Title</string>
+    <string name="notify_3">Notify 3</string>
+    <string name="notify_2">Notify 2</string>
+    <string name="notify_4">Notify 4</string>
+    <string name="notify_1">Notify 1</string>
+    <string name="notify_5">Notify 5</string>
+    <string name="notify_6">Notify 6</string>
+    <string name="notify_12">Notify 12</string>
+    <string name="notify_11">Notify 11</string>
+    <string name="notify_10">Notify 10</string>
+    <string name="notify_7">Notify 7</string>
+    <string name="notify_9">Notify 9</string>
+    <string name="notify_8">Notify 8</string>
+
+</resources>
